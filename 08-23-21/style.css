@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+header h1 {
+  font-family: Anton;
+  src: url(assets/font/Anton-Regular.ttf);
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px rgb(112, 112, 112);
+}
+
+video {
+  position: fixed;
+  z-index: -1;
+  object-fit: fill;
+  right: 0;
+  bottom: 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.fundo {
+background-color: rgb(15, 15, 15);
+}
+
+section {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  flex-grow: 2;
+}
+
+section p {
+  text-indent: 20px;
+}
+
+footer {
+  color: white;
+  font-size: 30px;
+}

@@ -1,0 +1,12 @@
+h1.titulo {
+  text-align: center;
+}
+
+tr.botao {
+  position: absolute;
+  left: 180px;
+}
+
+select {
+  width: 164px;
+}

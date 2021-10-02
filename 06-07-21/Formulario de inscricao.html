@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Formulário de inscrição</title>
+</head>
+<body>
+  <form action="">
+      <table>
+        <tr>
+          <th><form method="POST" action=""></form></th>
+          <h1 class="titulo">Formulário de inscrição</h1>
+        </tr>
+        <tr>
+          <td><label for="Nome">Nome</label></td>
+          <td><input type="text" id="Nome"></td>
+          <td><label for="Nascimento">Nasc:</label></th>
+          <td><input type="text" id="Nascimento" size="10"></th>
+        </tr>
+        <tr>
+          <td>Sexo:</td>
+          <td>
+            <input type="radio" id="Masc" name="sexo" value="Masculino">
+            <label for="Masc">Masculino</label>
+            <input type="radio" id="Femi" name="sexo" value="Feminino">
+            <label for="Femi">Feminino</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="Pai">Pai:</label></td>
+          <td><input type="text" id="Pai"></td>
+        </tr>
+        <tr>
+          <td><label for="Mãe">Mãe:</label></td>
+          <td><input type="text" id="Mãe"></td>
+          <td><label for="Telefone">Telefone:</label></td>
+          <td><input type="text" id="Telefone" size="10" maxlength="14"></td>
+        </tr>
+        <tr>
+          <td><label for="Endereço">Endereço</label></td>
+          <td><input type="text" id="Endereço"></td>
+        </tr>
+        <tr>
+          <td><label for="CEP">CEP:</label></td>
+          <td><input type="text" id="Endereço" size="10" maxlength="8"></td>
+          <td><label for="Estado">Estado</label></td>
+          <td>
+            <select id="Estado" name="Estado" class="selecionar">
+              <option value="Estado"></option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="Cidade">Cidade:</label></td>
+          <td>
+            <select id="Cidade" name="Cidade">
+              <option value="Cidade"></option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="Curso">Curso:</label></td>
+          <td>
+            <select id="Curso" name="Curso">
+              <option value="Curso"></option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="Turnos">Turnos de disponibilidade:</label><br>
+            <input type="checkbox" id="Manhã" name="Turnos">
+            <label for="Manhã">Manhã</label><br>
+            <input type="checkbox" id="Tarde" name="Turnos">
+            <label for="Tarde">Tarde</label><br>
+            <input type="checkbox" id="Noite" name="Turnos">
+            <label for="Noite">Noite</label><br>
+          </td>
+          <td colspan="2">
+            <label for="Dias">Dias de disponibilidade:</label><br>
+            <input type="checkbox" id="Segunda" name="Dias">
+            <label for="Segunda">Segunda-feira</label><br>
+            <input type="checkbox" id="Terça" name="Dias">
+            <label for="Terça">Terça-feira</label><br>
+            <input type="checkbox" id="Quarta" name="Dias">
+            <label for="Quarta">Quarta-feira</label><br>
+            <input type="checkbox" id="Quinta" name="Dias">
+            <label for="Quinta">Quinta-feira</label><br>
+            <input type="checkbox" id="Sexta" name="Dias">
+            <label for="Sexta">Sexta-feira</label><br>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="OBS">Observações</label><br>
+            <textarea cols="40"></textarea>
+          </td>
+        </tr>
+          <tr class="botao">
+            <td><button type="reset">Limpar</button></td>
+            <td><button type="button">Enviar</button></td>
+          </tr>
+      </table>
+  </form>
+</body>
+</html>

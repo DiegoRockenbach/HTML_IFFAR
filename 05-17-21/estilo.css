@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(Imagens/fundo.jpg);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#bichos {
+  text-align: center;
+  padding: 5%;
+}
+
+#botao img {
+  height: 140px;
+  width: 140px;
+}
+
+#botao {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgba(0, 204, 255, 0.295);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#texto {
+  background-color: rgba(0, 204, 255, 0.295);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#texto h1 {
+  text-align: center;
+  font-size: 300%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5%;
+}
+
+#texto p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 140%;
+  text-align: justify;
+}

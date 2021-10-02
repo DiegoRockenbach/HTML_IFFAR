@@ -1,0 +1,121 @@
+body.arcadismo {
+  background-image: url(IMG/arcadismo.png);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body.asisifo {
+  background-image: url(IMG/asisifo.png);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body.ladrao {
+  background-image: url(IMG/ladrao.png);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body.lobo {
+  background-image: url(IMG/lobo.png);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+div.cabecalho {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  background-color: rgba(122, 122, 122, 0.281);
+  width: 94%;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.menu_white{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+div.menu_black{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+div.menu_black a{
+  color: rgb(0, 0, 0);
+}
+
+div.menu_white a{
+  color: rgb(255, 255, 255);
+}
+
+div.conteudo_arcadismo{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(252, 249, 78, 0.61);
+  width: 30%;
+  height: 570px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.conteudo_asisifo{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(2, 118, 185, 0.61);
+  width: 30%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.conteudo_ladrao{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(97, 29, 206, 0.781);
+  width: 30%;
+  height: 620px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.conteudo_lobo{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.781);
+  width: 30%;
+  height: 530px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.rodape{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  width: 100%;
+  background-color: rgba(122, 122, 122, 0.555);
+  bottom: 0;
+  position: absolute;
+  margin-bottom: -300px;
+}
