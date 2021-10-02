@@ -1,2 +1,2 @@
 # HTML
-Meus projetos HTML feitos no IFFAR
+Meus projetos em HTML feitos no IFFAR
